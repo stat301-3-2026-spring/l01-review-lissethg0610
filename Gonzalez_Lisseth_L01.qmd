@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Lisseth Gonzalez"
+pagetitle: "L01 Lisseth Gonzalez"
 date: today
 
 format:
@@ -26,9 +26,7 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
-[https://your-github-repo-url](https://your-github-repo-url)
+[My Github Link](https://github.com/stat301-3-2026-spring/l01-review-lissethg0610)
 :::
 
 ## Overview
@@ -46,7 +44,16 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Data cleaning 
+- Exploratory Data Analysis (EDA)
+- Initial splitting 
+- Create folds 
+- Make recipes/feature engineering 
+- Set workflows 
+- Fit/tune models 
+- Assess best model 
+- Fit/train best model 
+- Assess best model 
 
 :::
 
@@ -57,7 +64,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning refers to task driven machine learning using pre-categorized data, such as classification and regression. Unsupervised learning refers to data driven machine learning that relies on pattern recognition, including clustering and association. 
 
 :::
 
@@ -70,7 +77,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A descriptive models purpose is to illustrate and describe data, often using visual tools to show trends or relationships. 
 
 :::
 
@@ -79,7 +86,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An inferential model intends to produce a result to test a hypothesis related to a research question. This model type relies on the assumption in the hypothesis. 
 
 :::
 
@@ -88,7 +95,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A predictive model is used to produce a prediction on existing data, which can be implemented to predict new data. 
 
 :::
 
@@ -103,7 +110,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model forms predictions based on an equation that estimates the parameters of the model. This model type creates an f(x) equation that is used to predict new data. 
 
 :::
 
@@ -114,7 +121,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirical model does not form predictions based on an equation. This model type tends to have higher accuracy, although it requires more data to observe the patterns. 
 
 :::
 
@@ -125,7 +132,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model is synonymous to a parametric model, while an empirically driven model is synonymous to a nonparametric model. 
 
 :::
 
@@ -136,7 +143,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model is easier to interpret since the parameters are defined by the produced equation, therefore the results can be explained by a formula. 
 
 :::
 
@@ -147,7 +154,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirically driven model is the more flexible model, since it is based on data points rather than an equation. For example, a simple line of best fit cannot capture potential polynomial or curved patterns. 
 
 :::
 
@@ -158,7 +165,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+For a mechanistic model there is a high risk for underfitting, making it a high bias-low variance model. For an empirically driven model there is a high risk for overfitting, making it a low bias-high variance model. 
 
 :::
 
