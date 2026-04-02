@@ -52,6 +52,7 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 - Set workflows 
 - Fit/tune models 
 - Assess best model 
+- Select best model
 - Fit/train best model 
 - Assess best model 
 
@@ -176,7 +177,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A regression machine learning problem uses the values in the data to predict a continuous numerical value. A classification machine learning problem uses the values in the data to predict a categorical outcome or class label, rather than a continuous numerical value.
 
 :::
 
@@ -187,7 +188,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying keeps the same proportion of each outcome in every split. This makes sure the training and test data look similar, so the model learns and is evaluated fairly.
 
 :::
 
@@ -198,7 +199,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+In v-fold cross validation with repeats, the data is split into v equal parts (folds). The model is trained on v−1 folds and tested on the remaining fold, repeating this process until every fold has been used as the test set. It is used to produce stable estimate of model performance by reducing the impact of how the data is split.
 
 :::
 
@@ -209,7 +210,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bootstrap resampling is used when the dataset is small or we want to make the most of limited data. Bootstrapping repeatedly samples with replacement from the data, allowing us to create the prediction while using most observations for training each time. It can give a more flexible estimate of variability and uncertainty in model performance compared to v-fold cross validation.
 
 :::
 
@@ -220,7 +221,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is the process of adjusting a model’s hyperparameters to find the best-performing version of the model. Tuning expands beyond the default settings for each models parameters to improve performance. 
 
 :::
 
@@ -231,7 +232,10 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Common performance metrics for regression include: 
+
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
 
 :::
 
@@ -240,7 +244,10 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Common performance metrics for classification include: 
+
+- Accuracy 
+- ROC-AUC
 
 :::
 
@@ -255,7 +262,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential: The question is about understanding the impact of service calls on churn. The goal is to draw conclusions or explain patterns in the data, not just predict outcomes. This question type requires forming a hypothesis, making it an inferential problem. 
 
 :::
 
@@ -264,7 +271,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Prediction: This question focuses on estimating the whether or not that a customer will churn. The goal is to make an accurate classification prediction based on existing data. 
 
 :::
 
